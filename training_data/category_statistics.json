@@ -1,0 +1,20 @@
+{
+  "total_original": 9500,
+  "original_counts": {
+    "bitwise": 1602,
+    "cipher": 1576,
+    "numeral": 1576,
+    "gravity": 1597,
+    "unit": 1594,
+    "symbol": 1555,
+    "unknown": 0
+  },
+  "augmented_counts": {
+    "cipher_augmented": 6304,
+    "symbol_augmented": 9330
+  },
+  "full_counts": {
+    "cipher_full": 7880,
+    "symbol_full": 10885
+  }
+}

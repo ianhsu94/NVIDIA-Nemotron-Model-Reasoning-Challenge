@@ -1,0 +1,13 @@
+{
+  "cipher": {
+    "MetadataCipherSolver": 1.0,
+    "SubstitutionSolver": 0.40323886639676115
+  },
+  "symbol": {
+    "MetadataSymbolSolver": 0.9757632565613283,
+    "KeepOnlySymbolRule": 0.0,
+    "ReorderSolver": 0.0,
+    "OperatorRuleSolver": 0.3125,
+    "DeleteRuleSolver": 0.31840796019900497
+  }
+}

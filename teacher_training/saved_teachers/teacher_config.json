@@ -1,0 +1,12 @@
+{
+  "train_validation_split": "80/20",
+  "random_seed": 42,
+  "teachers": {
+    "numeral": "Teacher-Numeral",
+    "gravity": "Teacher-Gravity",
+    "unit": "Teacher-Unit",
+    "bitwise": "Teacher-Bitwise",
+    "cipher": "Teacher-Cipher",
+    "symbol": "Teacher-Symbol"
+  }
+}

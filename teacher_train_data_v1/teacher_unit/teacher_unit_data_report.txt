@@ -1,0 +1,14 @@
+Teacher data split completed successfully.
+teacher_target: teacher_unit
+train_ready_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\nemotron_data_ready\train_ready_v1.parquet
+raw_train_ready_rows: 28800
+final_rows: 7188
+main_rows: 6188
+format_replay_rows: 1000
+strategy_replay_rows: 0
+source_counts: {'synthetic_unit_conversion': 3000, 'original': 2594, 'original_replay': 1594}
+task_type_counts: {'unit_conversion': 6188, 'numeral_system': 214, 'text_decryption': 206, 'bit_manipulation': 196, 'gravity': 192, 'symbolic_cipher': 100, 'numeric_equation': 92}
+role_counts: {'main': 6188, 'format_replay': 1000}
+output_parquet_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\teacher_train_data_v1\teacher_unit\teacher_unit_train.parquet
+output_csv_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\teacher_train_data_v1\teacher_unit\teacher_unit_train.csv
+quality_check_status: passed

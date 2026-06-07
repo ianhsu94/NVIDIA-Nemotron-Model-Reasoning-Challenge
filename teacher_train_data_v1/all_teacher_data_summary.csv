@@ -1,0 +1,15 @@
+teacher_target,rows,main_rows,format_replay_rows,strategy_replay_rows
+teacher_general,19000,19000,0,0
+teacher_numeral,7152,6152,1000,0
+teacher_gravity,7194,6194,1000,0
+teacher_unit,7188,6188,1000,0
+teacher_symbolic_solver,3446,2446,1000,0
+teacher_symbolic_general,3146,1646,1000,500
+teacher_text_mapping,4152,3152,1000,0
+teacher_text_format,3076,1576,0,1500
+teacher_numeric_arithmetic,3064,1464,800,800
+teacher_numeric_digitstring,3064,1464,800,800
+teacher_numeric_mixed,3264,1464,800,1000
+teacher_bit_original,4204,3204,1000,0
+teacher_bit_operation,5004,3204,800,1000
+teacher_bit_augmented,5004,3204,0,1800

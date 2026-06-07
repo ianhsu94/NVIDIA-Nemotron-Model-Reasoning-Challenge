@@ -1,0 +1,37 @@
+{
+  "numeral": {
+    "accuracy": 1.0,
+    "count": 315
+  },
+  "gravity": {
+    "accuracy": 1.0,
+    "count": 319
+  },
+  "unit": {
+    "accuracy": 1.0,
+    "count": 319
+  },
+  "bitwise": {
+    "accuracy": 0.778125,
+    "count": 320
+  },
+  "cipher": {
+    "accuracy": 0.8642131979695431,
+    "count": 1576,
+    "solver_accuracy": {
+      "MetadataCipherSolver": 1.0,
+      "SubstitutionSolver": 0.3724340175953079
+    }
+  },
+  "symbol": {
+    "accuracy": 0.8410656867248507,
+    "count": 2177,
+    "solver_accuracy": {
+      "AliceSymbolEquationSolver": 0.3333333333333333,
+      "DeleteRuleSolver": 0.2857142857142857,
+      "DirectMapSolver": 0.0,
+      "KeepOnlySymbolRule": 0.0,
+      "MetadataSymbolSolver": 0.9752953813104189
+    }
+  }
+}

@@ -1,0 +1,16 @@
+Data split completed successfully.
+program_name: prepare_teacher_gravity_data.py
+seed: 42
+train_ready_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\nemotron_data_ready\train_ready_v1.parquet
+raw_train_ready_rows: 28800
+teacher_name: teacher_gravity
+main_filter_rule: task_type == "gravity" and source in ['original', 'original_replay', 'synthetic_gravity']
+format_replay_filter_rule: source == "original" and task_type != "gravity"
+main_rows: 6194
+format_replay_rows: 1000
+final_rows: 7194
+source_counts: {'synthetic_gravity': 3000, 'original': 2597, 'original_replay': 1597}
+task_type_counts: {'gravity': 6194, 'numeral_system': 222, 'unit_conversion': 202, 'bit_manipulation': 202, 'text_decryption': 177, 'symbolic_cipher': 106, 'numeric_equation': 91}
+output_parquet_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\easy_teacher_data\teacher_gravity\teacher_gravity_train.parquet
+output_csv_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\easy_teacher_data\teacher_gravity\teacher_gravity_train.csv
+quality_check_status: passed

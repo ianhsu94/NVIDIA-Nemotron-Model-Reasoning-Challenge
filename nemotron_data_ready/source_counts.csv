@@ -1,0 +1,7 @@
+source,count
+original,9500
+original_replay,9500
+synthetic_roman,3000
+synthetic_gravity,3000
+synthetic_unit_conversion,3000
+symbolic_solver_correct,800

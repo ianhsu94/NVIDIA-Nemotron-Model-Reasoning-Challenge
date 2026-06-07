@@ -1,0 +1,21 @@
+NVIDIA Nemotron data generation report
+seed: 42
+train_path: C:\Users\User\Downloads\nvidia-nemotron-model-reasoning-challenge.zip!train.csv
+test_path: C:\Users\User\Downloads\nvidia-nemotron-model-reasoning-challenge.zip!test.csv
+solver_results_path: C:\Users\User\Downloads\solver_results.parquet
+raw_train_rows: 9500
+raw_test_rows: 3
+original_task_type_counts: {'bit_manipulation': 1602, 'gravity': 1597, 'unit_conversion': 1594, 'text_decryption': 1576, 'numeral_system': 1576, 'symbolic_cipher': 823, 'numeric_equation': 732}
+solver_results_rows: 823
+solver_correct_rows_before_answer_check: 800
+solver_correct_rows_after_answer_check: 800
+solver_answer_mismatch_excluded_rows: 0
+synthetic_roman_rows: 3000
+synthetic_gravity_rows: 3000
+synthetic_unit_conversion_rows: 3000
+final_source_counts: {'original': 9500, 'original_replay': 9500, 'synthetic_roman': 3000, 'synthetic_gravity': 3000, 'synthetic_unit_conversion': 3000, 'symbolic_solver_correct': 800}
+final_task_type_counts: {'gravity': 6194, 'unit_conversion': 6188, 'numeral_system': 6152, 'bit_manipulation': 3204, 'text_decryption': 3152, 'symbolic_cipher': 2446, 'numeric_equation': 1464}
+final_total_rows: 28800
+output_parquet_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\nemotron_data_ready\train_ready_v1.parquet
+output_csv_path: C:\Users\User\Documents\NVIDIA-Nemotron-Model-Reasoning-Challenge\nemotron_data_ready\train_ready_v1.csv
+quality_check_status: passed
